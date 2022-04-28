@@ -1,0 +1,81 @@
+
+#heiback{
+    background-image: url(hei0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding: 300px 0px 80px 0px;
+}
+#heiti{
+    color: goldenrod;
+}
+.textol{
+    color: white;
+}
+.perso{
+    font-family:monospace;
+    font-size: 60px;
+    font-weight: 700;
+}
+.card{
+    width: 60px;
+}
+#image{
+    width: 200px;
+   justify-content: center;
+    border-radius: 50px;
+    margin-left: 120px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.parcour{
+    display: inline-flex;
+}
+form.classes{
+    margin: 5px 8px 5px 8px;
+}
+form.classes button{
+    margin: 5px 8px 5px 8px;
+}
+
+#image0{
+    height: 400px;
+    width: 500px;
+    margin: 30px 10px 10px 10px;
+}
+#image2{
+    height: 400px;
+    width: 700px;
+    margin: 30px 10px 10px 10px;
+}
+#image1{
+    height: 400px;
+    width: 700px;
+    margin: 30px 10px 10px 10px;
+}
+.descri{
+    font-size: 20px;
+}
+#heifoot{
+    background-color: #14171c;
+}
+.icono{
+    background-color: goldenrod;
+    border-radius: 18px;
+    margin: 6px 12px;
+    width: 60px;
+    padding: 5px 5px ;
+}
+.dernier{
+    font-size: 20px;
+    font-weight: 600;
+}
+.dernier1{
+    font-size: 18px;
+    font-weight: 700;
+}
+.marg{
+    width: 95vw;
+   align-content: center;
+   margin: 10px 20px 0px 20px;
+}
