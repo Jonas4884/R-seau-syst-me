@@ -1,4 +1,5 @@
 
+/*home background*/
 #heiback{
     background-image: url(hei0.jpg);
     background-repeat: no-repeat;
@@ -17,6 +18,7 @@
     font-size: 60px;
     font-weight: 700;
 }
+/*corps du site*/
 .card{
     width: 60px;
 }
@@ -79,3 +81,4 @@ form.classes button{
    align-content: center;
    margin: 10px 20px 0px 20px;
 }
+/*Fin de css home*/
