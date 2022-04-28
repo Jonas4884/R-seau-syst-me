@@ -17,3 +17,10 @@ for (let i = 0; i < color.length; i++) {
         }
     }   
 }
+//Get max pour l'accumulateur[i]
+let max = 0;
+for (let i = 0; i < stock.length; i++) {
+    if (stock[i+1] > stock[i]) {
+        max = i+1;
+    }
+}
