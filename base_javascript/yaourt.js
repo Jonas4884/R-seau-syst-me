@@ -9,3 +9,11 @@ for (let i = 1; i < diff.length; i++) {
         stock.push(0);
     }
 }
+//accumul-ena n couleur miverina rehetra
+for (let i = 0; i < color.length; i++) {
+    for (let j = 0; j < diff.length; j++) {
+        if (color[i]==diff[j]) {
+            stock[i] += 1;
+        }
+    }   
+}
