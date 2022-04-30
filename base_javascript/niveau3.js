@@ -18,5 +18,11 @@ export function superDigit(p){
 		n.split("").forEach( (e) => {
 			superdigit += Number(e);
 		});
-
 	}
+	superDigit(superdigit)
+	if(superdigit.length<2){
+		return superdigit
+	}else
+return superDigit(superdigit);
+}
+return superdigit
