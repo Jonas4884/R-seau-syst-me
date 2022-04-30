@@ -9,3 +9,14 @@ export function superDigit(p){
 		}
 	}
     /*Début de l'algorithme*/
+
+    //Diviser le tableau en sous tableau
+    let n = p.split("")[0];
+	let k = p.split("")[1] == undefined ? 1:Number(p.split(" ")[1]);
+     //Comptez les repetitions
+     for(let i=0; i<k; i++){
+		n.split("").forEach( (e) => {
+			superdigit += Number(e);
+		});
+
+	}
