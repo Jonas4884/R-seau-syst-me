@@ -4,68 +4,166 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gasikara dicovery</title>
-    <link rel="stylesheet" href="gasikara.css">
-    <link rel="stylesheet" href="navibar.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="heiba.css">
+    <script src="js/bootstrap.bundle.js"></script>
 </head>
-
 <body>
-    <div class="background">
-        <header>
-             <!--Navibar-->
-            
-             <div class="aceuil1">
-                <img src="logo.png" class="logo" alt="un logo">
-                <div class="navibar">
-                    <ul class="menu">
-                        <li class="horizontale"><a href="index.html">Acceuil</a>
-                        <li class="horizontale horizontale1"><a href="service.html">Service</a>
-                            <ul class="sousmenu">
-                                <li><a href="Hebergement.html">Hebergement</a>
-                            <li><a href="location.html">Location</a>
-                            </ul>
-                   
-                        <li class="horizontale"><a href="Tarif.html">Tarifs</a>
-                        <li class="horizontale"><a href="Information.html">A propos</a>
-                    </ul>
-                </div>
-            </div>
-        </header>
-    <div>
-        <p class="intro">Pour profiter aux maximum sur notre service,veillez-vous inscrire parmis nos membres <br>Cette inscription gratuite permet de vous acceder aux services VIP</p>
-        <form>
-            <b class="idm">Votre Identifiant</b><br>
-            <input type="text" placeholder="Votre ID ex:BIDF4598..."><br>
-           <br> <b>OU</b><br>
-            <br><b class="idm">Votre Adresse e-mail:</b><br>
-            <input type="text" name="E-mail" placeholder="xxxx@gmail.com"><br>
-            <br><b class="idm">Votre mot de passe</b> <br>
-            <input type="password" placeholder="********"><br>
-            <br><b>Numéro Téléphone:</b> <br>
-            <input type="number" name="phone"> <br>
-            <br><input type="submit" class="inscription" value="S'inscrire">  <!--inscription-->
-        </form>       
-    </div>
+    <header>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">
+            <img src="logo.png" width="50" height="30" class="d-inline-block align-top" alt="">
+            Haute Ecole d'Informatique
+        </a>
+        <nav class="navbar navbar-light bg-light">
+          <form class="form-inline classes">
+            <button class="btn btn-outline-warning" type="button">Acceuil</button>
+            <button class="btn btn-warning " type="button">INTRANET</button>
+          </form>
+        </nav>
+      </nav>
+    </header>
+    <main role="main" class="mainy">
 
-<footer>
-    <div class="presentation">
-        <div class="paysage">
-            Madagascar,connu sur sa biodiversité,explorer la nature verdoyant sans contraintes en se referant sur notre <a href="service.html">Service</a>
+        <section class="jumbotron text-center" id="heiback">
+          <div class="container">
+            <h1 id="heiti">Haute Ecole d'Informatique</h1>
+            <p class="lead text-muted textol">Professionnels du monde entier unis pour former les étudiants malgaches suivant les plus hauts standards.</p>
+            <p>
+                <!--Inscription-->
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeg2L57_Re6Yci2iKiKELPT5uPfAl4-AwFbxZv1X-BghjLFrg/viewform?pli=1" target="blank" class="btn btn-warning">Inscription</a>
+                <!--Programme scolaire-->
+              <a href="https://drive.google.com/file/d/12Lc4o3jfQOFHIzazPToO2hnGZc8epU3I/view" target="blank" class="btn btn-dark">Notre Programme</a>
+            </p>
+          </div>
+        </section>
+     <div class="marg">
+         <h1 class="text-center perso">Aperçu Pedagogique</h1>
+         <div class="card-group mt-2 ml-2">
+            <div class="card text-center">
+                <!--Professeur de HEI-->
+              <img src="tahina.jpg" class="card-img-top" id="image" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tahina Ralitera</h5>
+                <p class="card-text">Docteure-Ingénieure, CEA, Saclay | Prix L'Oréal-UNESCO pour les Femmes en Science (2017)</p>
+              </div>
+            </div>
+            <div class="card text-center">
+              <img src="yannick.jpg" class="card-img-top" id="image" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Yannick Raharijaona</h5>
+                <p class="card-text">ML Tech Lead, Rocket Science, Ottawa</p>
+                
+              </div>
+            </div>
+            <div class="card text-center">
+              <img src="parison.jpg" class="card-img-top" id="image" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Parison Ravalomanda</h5>
+                <p class="card-text"> Ingénieur logiciel, Google, Londres</p>
+              </div>
+            </div>
+          </div>
+     
+         <div class="card-group">
+            <div class="card text-center">
+              <img src="sandrine.jpg" class="card-img-top" id="image" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sandrine Ramaroson</h5>
+                <p class="card-text">Ex-directrice technique, Vanilla Pay, Antananarivo | Révélation Fintech de Women In Africa (2020)</p>
+              </div>
+            </div>
+            <div class="card text-center">
+              <img src="ryan.jpg" class="card-img-top" id="image" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ryan Andriamahery</h5>
+                <p class="card-text">Co-fondateur chez Haute École d'Informatique - HEI</p>
+              </div>
+            </div>
+            <div class="card text-center">
+              <img src="parison.jpg" class="card-img-top" id="image" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Parison Ravalomanda</h5>
+                <p class="card-text"> Ingénieur logiciel, Google, Londres</p>
+              </div>
+            </div>
+          </div>
+     </div>
+     
+     <div class="card mb-6 mx-auto" style="width: 98%; border: none;">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card-body float-left">
+                  <h5 class="card-title perso">Parcours</h5>
+                  <p class="card-text descri">Nous proposons deux parcours jusqu’à la Licence : Écosystèmes Logiciels (formant des développeurs backend et frontend, développeurs mobile, analystes de données, chefs de projet…) et Transformations Numériques (formant des référenceurs web, commerçant-marketeurs digital, analystes de données, chefs de projet).</p>
+                  <a href="https://drive.google.com/file/d/12Lc4o3jfQOFHIzazPToO2hnGZc8epU3I/view" target="blank" class="btn btn-warning w-25 p-3 to-"><b>NOTRE PROGRAMME</b> </a>
+                </div>
+              </div>
+          <div class="col-md-4">
+            <img src="parcour.jpg" class="float-right" id="image0" alt="...">
+          </div>
+          
         </div>
-        <div class="equipe">
-            Notre equipe,
-            Des jeunes diplomées,des experts,...sont avant tout des specialistes et experts dans le domaines du tourismes et de l'hotelerie.
+      </div>
+     <div class="card mb-6 mx-auto" style="width: 98%; border: none;">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="hei2.jpg" class="float-right" id="image0" alt="...">
+              </div>
+            <div class="col-md-8">
+                <div class="card-body float-left">
+                  <h5 class="card-title perso">Bourses d’études</h5>
+                  <p class="card-text descri">Les 3 étudiants les mieux classés au concours d’entrée se verront exonérés des frais de scolarité. Il en va de même pour 2 étudiants supplémentaires évalués sur critères sociaux.
+
+                    Par ailleurs, HEI assure le financement à remboursement du Master en Informatique en France de l’étudiant(e) le plus méritant(e) à hauteur de 8.900€ grâce au programme Vatsy.</p>
+                  <a href="https://heischool.wixsite.com/vatsy" target="blank" class="btn btn-warning w-25 p-3 to-"><b>Programme VATSY
+                </b> </a>
+                </div>
+              </div>   
         </div>
-        <div>
-            Les locaux et ses services,
-            les hebergements ainsi que les voitures sont sous notre contrôle durant toutes votre séjour
-            Une contrôle technique est fait regulièrement
+      </div>
+     <div class="card mb-6 mx-auto" style="width: 98%; border: none;">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="alliance.jpg" class="float-right" id="image0" alt="...">
+              </div>
+            <div class="col-md-8">
+                <div class="card-body float-left">
+                  <h5 class="card-title perso">Alliance Française</h5>
+                  <p class="card-text descri">Chez HEI, la communication est aussi importante que la technique ! Les cours de français sont assurés par l’Alliance Française de Madagascar.</p>
+                  <a href="http://www.alliancefr.mg/" target="blank" class="btn btn-warning w-25 p-3 to-"><b>ALLIANCE FRANÇAISE
+                </b> </a>
+                </div>
+              </div>   
         </div>
-        Pour nous suivre de plus près quotidiennement,abonnez-vous sur notre page similaire: <br>
-           <img src="logo1.png" class="logo1" alt="">
-    </div>
-    
-</footer>
-    </div>
+      </div>
+    </div> 
+    <footer>
+      <main role="main">
+        <section class="jumbotron text-center" id="heifoot">
+          <div class="container">
+            <h1 id="heiti">Futurs étudiants, découvrez comment vous inscrire !</h1>
+            <p class="lead textol">HEI compte désormais 87 étudiants repartis sur trois groupes. Chaque groupe poursuit le même programme pédagogique à des rythmes différents tout en étant dans la même promotion.</p>
+            <br> <br>
+            <p class="lead textol">Nous recrutons de nouveaux étudiants tout au long de l’année. Plusieurs rentrées sont prévues pour chaque année calendaire. Inscrivez-vous sur le lien ci-dessous et nous vous informerons de la date de la prochaine rentrée !</p>
+              <a href="#" class="btn btn-warning w-25 p-3"><b> INSCRIVEZ-VOUS ICI!</b></a>
+            </p>
+          </div>
+        </section>
+
+        <section class="text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" class="icono" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" class="icono" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg>
+
+          <p class="dernier">contact@hei.school</p>
+          <p class="dernier1">© HEI - SARLU ANTANANARIVO</p>
+
+        </section>
+    </footer>
 </body>
 </html>
