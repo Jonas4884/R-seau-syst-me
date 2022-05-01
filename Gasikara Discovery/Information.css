@@ -102,3 +102,13 @@ div.Avis img{
 }
 div.legal1{
     background-color: rgb(4, 3, 1,0.5);}
+
+.finalinfo{
+    margin: auto;
+
+}
+#tittleinfo{
+    background-color: rgb(81, 54, 25) ;
+    border-radius: 12px;
+    box-shadow: 6px 6px 5px 5px;
+}
