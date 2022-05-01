@@ -108,7 +108,8 @@ div.legal1{
 
 }
 #tittleinfo{
-    background-color: rgb(81, 54, 25) ;
+    background-color: rgb(85, 54, 25,0.8) ;
     border-radius: 12px;
     box-shadow: 6px 6px 5px 5px;
+    padding: 8px 5px 8px 5px;
 }
