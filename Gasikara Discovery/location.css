@@ -22,7 +22,8 @@ ul.voiture{
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 15px;
-    margin: 10px 2px 10px 2px;
+    margin: 0 !important;
+    padding: 0  !important;
     display: flex;
     overflow: auto;
     flex-wrap: wrap;
@@ -96,18 +97,18 @@ div.flexe img{
 }
 p.subtittle{
     font-size: 50px;
-    position: sticky;
+    margin:0 !important;
     color: black !important;
 }
 
 li.flex{
    font-size: 50px;
-    border: 2px solid dimgray;
     border-radius: 10px;
-    margin: inherit;
+    margin: 18px 0px 12px 0px;
     position: relative;
-    display: flex;
     width: 100%;
+    border: black solid 1px;
+    box-shadow: rgb(0, 0, 0,0.6) 12px 12px 5px 5px;
     flex-flow: row;
     font-family: inherit;
     flex-wrap: wrap;
@@ -179,15 +180,21 @@ img.Voiture{
 
 }
 img.Voituree{
-    float:right;
-    width: 25%;
-    height: 35vh;
+    width: 48%;
+    height:100%;
     border-radius: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 10px 10px 10px 10px; 
 
+}
+.car{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: hidden;
 }
 img.Voitures{
     float:right;
