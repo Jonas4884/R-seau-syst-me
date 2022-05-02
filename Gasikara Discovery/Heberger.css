@@ -158,7 +158,7 @@ div.beleau{
     font-weight: normal;
     border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 31%;
+    width: 31.6%;
     height:76.5vh;
     color: cornsilk;
 }
@@ -429,9 +429,22 @@ img.avilla{
         padding: 0;
     }
     div.responsive{
-        width:90vw;
+        width:auto !important;
         height: 100vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
 }   
+    div.beleau{
+      
+        justify-content: center
+    }
+    div.Maison{
+    
+        justify-content: center;
+    }
+    
     p.text{
         font-size: 0.9em;
     }
