@@ -1,7 +1,7 @@
-Créer une serveur Apache fonctionnelle.
+#Créer une serveur Apache fonctionnelle.
 #Pour toutes les configurations,il est exigé d'être en mode root
-    Sur Debian: user@debian:~$ su
-    Sur Ubuntu: user@debian:~$ sudo su
+    ##Sur Debian: user@debian:~$ su
+    ##Sur Ubuntu: user@debian:~$ sudo su
 
 #1-Installer Apache2 sur un systeme basée sur linux(Debian/Ubuntu)
   Commande:
