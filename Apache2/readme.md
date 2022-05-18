@@ -1,5 +1,5 @@
 Créer une serveur Apache fonctionnelle.
-Pour toutes les configurations,il est exigé d'être en mode root
+#Pour toutes les configurations,il est exigé d'être en mode root
     Sur Debian: user@debian:~$ su
     Sur Ubuntu: user@debian:~$ sudo su
 
@@ -7,7 +7,7 @@ Pour toutes les configurations,il est exigé d'être en mode root
   Commande:
         -apt-get update
         -apt-get install Apache2
-  Pour verifier:
+  ##Pour verifier:
         -apache2 -v
 
 #2-Configuration du serveur - Donner un nom du serveur
@@ -31,12 +31,13 @@ Modifier l'initial par:
             -root@debian:~# nano /etc/apache2/sites-available/000-default.conf
       Par défaut,la configuration est :
 
-<VirtualHost *:80>
+### 
+      <VirtualHost *:80>
 	ServerAdmin webmaster@localhost
 	DocumentRoot /var/www/html
 	ErrorLog ${APACHE_LOG_DIR}/error.log
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
+### </VirtualHost>
 
 ServerAdmin consiste à l'extension serveur.
 /var/www/html est le repertoire du serveur.
