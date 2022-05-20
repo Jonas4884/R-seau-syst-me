@@ -19,11 +19,11 @@ Ajouter le ligne suivante:
         
         ici,ce sera /mnt/partage/ 192.168.31.133/24(rw,all_squash,sync,no_subtree_check)
 <img src="image/nfs-conf.png" alt="">
-Pour cette configuration,
-rw : permet la lecture et l'écriture sur un partage pour l'hôte défini (par défaut, les partages sont en mode ro; c'est-à-dire en lecture seule). <br>
-sync : est le contraire de async. Le serveur NFS respecte le protocole NFS. <br>
-all_squash : force le mapping de tous les utilisateurs vers l'utilisateur anonyme. <br>
-no_subtree_check : Cette option neutralise la vérification de sous-répertoires, ce qui a des subtiles implications au niveau de la sécurité, mais peut améliorer la fiabilité dans certains cas.
+Pour cette configuration, <br>
+        -rw : permet la lecture et l'écriture sur un partage pour l'hôte défini (par défaut, les partages sont en mode ro; c'est-à-dire en lecture seule). <br>
+        -sync : est le contraire de async. Le serveur NFS respecte le protocole NFS. <br>
+        -all_squash : force le mapping de tous les utilisateurs vers l'utilisateur anonyme. <br>
+        -no_subtree_check : Cette option neutralise la vérification de sous-répertoires, ce qui a des subtiles implications au niveau de la sécurité, mais peut améliorer la fiabilité dans certains cas.
 <br>
 
 ### 4-relancer le service
@@ -52,9 +52,11 @@ Sortie attendue: Export list for 192.168.31.134 br
         root@debian: mount 192.168.31.134:mnt/partage/  /mnt/test <br>
 
 <img src="image/nfs-success.png" alt="">
+
 ### 5-se diriger vers le repertoire de partage et tester l'accès du client
         root@debian:~# cd /mnt/test
         root@debian:~# mkdir test.txt
+
 #### Vous avez  une serveur NFS fonctionelle.
 
 
