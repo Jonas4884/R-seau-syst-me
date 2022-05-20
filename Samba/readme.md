@@ -53,7 +53,7 @@ Configuration:
   Commande : root@user:~# mkdir /home/user/partage
 
 ## 6. Partager ce dossier via samba
-	commande: root@user:~# nano /etc/samba/smb.conf <br>
+	commande: root@user:~# nano /etc/samba/smb.conf 
   ===================== Share Definition =============== <br>
  ....
  [partage]
