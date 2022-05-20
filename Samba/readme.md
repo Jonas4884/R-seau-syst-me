@@ -106,7 +106,7 @@ Configuration:
   <img src="image/samba-success.png" alt="">
   
 Et ainsi,la liaison entre Windows-machine serveur-machine client s'etablie
- Pour recevoir un fichier sur les machines,on peut utiliser "get fichier.txt"
+ Pour recevoir un fichier sur les machines,on peut utiliser "get fichier.txt" <br>
  Pour creer un fichier sur les machines,on peut utiliser "put fichier.txt" 
      
               
