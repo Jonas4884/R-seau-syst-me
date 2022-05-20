@@ -24,18 +24,18 @@ Dans ses configurations, <br>
 ## 3-Configuration du serveur - sites disponible et liens symboliques
             -root@jonathan:~# cd /var/www/mon_test.local
             -root@jonathan:~# nano index.html
-Comme toutes les pages html,on peut mettre des balises HTML commme ci-dessous:
+Comme toutes les pages html,on peut mettre des balises HTML commme ci-dessous: <br>
 
-<img href="image/nginx-html.png" alt="">
+<img src="image/nginx-html.png" alt="">
 
 ## 4-Redemarrer le service Nginx
 
             -root@jonathan:~# /etc/init.d/apache2 restart
 ## 6-Récuperer l'adresse IP et le saisir sur un navigateur.
             -root@jonathan:~# ip addr
-<a href="image/nginx-IP.png"></a>
+<img src="image/nginx-IP.png" alt="">
 ### Vous avez une serveur Nginx fonctionnelle
-<a href="image/nginx-test.png"></a>
+<img src="image/nginx-test.png" alt="">
 
 <br>
 <a href="https://github.com/Jonas4884/Reseau-et-systeme">Revenir au liste des serveurs</a>
