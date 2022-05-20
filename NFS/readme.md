@@ -6,16 +6,18 @@
 
 ##            Côté serveur
 ### 1-Installation du packet
-        root@jonathan:~# apt-get update
-        root@jonathan:~# apt install nfs-kernel-server
+        -root@jonathan:~# apt-get update
+        -root@jonathan:~# apt install nfs-kernel-server
 <img src="image/nfs.png" alt="">
+
 ### 2-Creer le repertoire de partage
-        root@jonathan:~# mkdir /mnt/partage
+        -root@jonathan:~# mkdir /mnt/partage
 ### 3-Configurer le repertoire /etc/exports
-        root@jonathan:~# nano /etc/exports
+        -root@jonathan:~# nano /etc/exports
 Ajouter le ligne suivante:
         /chemin du partage/  adresse IP du client(rw,all_squash,sync,no_subtree_check)
-        /mnt/partage/ 192.168.31.133/24(rw,all_squash,sync,no_subtree_check)
+        
+        ici,ce sera /mnt/partage/ 192.168.31.133/24(rw,all_squash,sync,no_subtree_check)
 <img src="image/nfs-conf.png" alt="">
 Pour cette configuration,
 rw : permet la lecture et l'écriture sur un partage pour l'hôte défini (par défaut, les partages sont en mode ro; c'est-à-dire en lecture seule). <br>
@@ -23,6 +25,7 @@ sync : est le contraire de async. Le serveur NFS respecte le protocole NFS. <br>
 all_squash : force le mapping de tous les utilisateurs vers l'utilisateur anonyme. <br>
 no_subtree_check : Cette option neutralise la vérification de sous-répertoires, ce qui a des subtiles implications au niveau de la sécurité, mais peut améliorer la fiabilité dans certains cas.
 <br>
+
 ### 4-relancer le service
         root@jonathan:~# service nfs-kernel-server reload
 ##### Pour verifier l'installation,
