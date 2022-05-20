@@ -12,8 +12,10 @@
 ## 2-Configuration du serveur
   Commande: <br>
             -root@jonathan:~# nano /etc/nginx/conf.d/test.local.conf <br>
-Ajouter les configurations: 
-<img src="image/nginx-conf.png" alt=""> <br>
+   Ajouter les configurations: 
+
+<img src="image/nginx-conf.png" alt="">
+
 Dans ses configurations, <br>
             -listen 80 redirige le port d'ouverture sur le port 80 <br>
             -Ces fichiex index configure le support de fichier lors du lancement du serveur <br>
