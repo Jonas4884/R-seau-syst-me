@@ -1,4 +1,4 @@
-# Les liens suivants vous dirigent les tutoriels respectifs de chaque serveur
+# Les liens suivants vous affichent les tutoriels respectifs de chaque serveur sous linux.
 
 ## Serveur web:
   ###         <a href="https://github.com/Jonas4884/Reseau-et-systeme/blob/main/Apache2/readme.md"> Apache</a>
