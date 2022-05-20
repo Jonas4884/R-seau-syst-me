@@ -8,7 +8,7 @@
 ##### 1-Installation du packet vsftpd
     root@jonathan:~# apt-intsall vsftpd -y
 
-    <img src="image/vsftpd-conf-3.png" alt="">
+<img src="image/vsftpd-conf-3.png" alt="">
     
 ##### 2-Verifier l'installation
     root@jonathan:~# vsftpd -v
