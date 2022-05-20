@@ -40,3 +40,6 @@ Sortie attendue: Export list for 192.168.31.134
         root@debian:~# cd /mnt/partage
         root@debian:~# mkdir test.txt
 #### Vous avez  une serveur NFS fonctionelle
+
+
+<a href="https://github.com/Jonas4884/Reseau-et-systeme">Revenir au liste des serveurs</a>

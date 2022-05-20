@@ -12,7 +12,7 @@
   Commande:
             -root@debian:~# nano /etc/nginx/conf.d
 Ajouter un nom de sevuer: 
-....
+Se referer sur:
 ###ServerRoot "/etc/apache2"
 ServerName www.test.fr
 
@@ -49,5 +49,9 @@ Comme toutes les pages html,on peut mettre des balises comme <p>Hello world</p>
             -root@debian:~# /etc/init.d/apache2 restart
 ## 6-Récuperer l'adresse IP et le saisir sur un navigateur.
             -root@debian:~# ip addr
-
+<a href="image/nginx-IP.png"></a>
 ### Vous avez une serveur Apache fonctionnelle
+<a href="image/nginx-test.png"></a>
+
+<br>
+<a href="https://github.com/Jonas4884/Reseau-et-systeme">Revenir au liste des serveurs</a>

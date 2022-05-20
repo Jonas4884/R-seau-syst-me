@@ -104,6 +104,6 @@ Et ainsi,la liaison entre Windows-machine serveur-machine client s'etablie
  Pour creer un fichier sur les machines,on peut utiliser "put fichier.txt" 
      
               
-
+ <a href="https://github.com/Jonas4884/Reseau-et-systeme">Revenir au liste des serveurs</a>
    
  

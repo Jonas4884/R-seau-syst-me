@@ -53,4 +53,6 @@ ServerAdmin consiste à l'extension serveur.
 ## 6-Récuperer l'adresse IP et le saisir sur un navigateur.
             -root@debian:~# ip addr
 <img src="image/apache-test.png" alt="">
+
 ### Vous avez une serveur Apache fonctionnelle
+<a href="https://github.com/Jonas4884/Reseau-et-systeme">Revenir au liste des serveurs</a>
