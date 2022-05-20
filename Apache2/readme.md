@@ -11,13 +11,13 @@
         -apache2 -v
 
 # 2-Configuration du serveur - Donner un nom du serveur
-  Commande:
-            -root@debian:~# nano /etc/apache2/apache2.conf
-Ajouter un nom de seveur: 
+  Commande: <br>
+            -root@debian:~# nano /etc/apache2/apache2.conf <br>
+Ajouter un nom de seveur: <br>
 ....
-## ServerRoot "/etc/apache2"
+ServerRoot "/etc/apache2" <br>
 ServerName www.test.fr
-
+<br>
 ### 3-Configuration du serveur - etablir la configuration du sécurité et les bases
 
             -root@debian:~# vi conf-enabled/security.conf
@@ -45,9 +45,10 @@ ServerAdmin consiste à l'extension serveur.
 ## 4-Configuration du serveur - sites disponible et liens symboliques
             -root@debian:~# cd /var/www/html
             -root@debian:~# nano index.html
-###### recuperer l'adresse IP
+             <img src="image/apache-html.png" alt="">
+###### Recupérer l'adresse IP
 <img src="image/apache-IP.png">
-## 5-Redemarrer le service Apache2
+## 5-Redémarrer le service Apache2
 
             -root@debian:~# /etc/init.d/apache2 restart
 ## 6-Récuperer l'adresse IP et le saisir sur un navigateur.
