@@ -3,28 +3,30 @@
 
 ## 1-Installer Nginx sur un systeme basée sur linux(Debian/Ubuntu)
   Commande:
-        -apt-get update
+        -apt-get update <br>
         -apt-get install nginx
   ### Pour verifier:
         -nginx -v
 <img src="image/verifier.png" alt="">
+
 ## 2-Configuration du serveur
   Commande:
             -root@jonathan:~# nano /etc/nginx/conf.d/test.local.conf
 Ajouter les configurations: 
 <img src="image/nginx-conf.png" alt="">
-Dans ses configurations,
-            -listen 80 redirige le port d'ouverture sur le port 80
-            -Ces fichiex index configure le support de fichier lors du lancement du serveur
-            -root  /var/www/mon_test.local est le repertoire de fichier du serveur.
+Dans ses configurations, <br>
+            -listen 80 redirige le port d'ouverture sur le port 80 <br>
+            -Ces fichiex index configure le support de fichier lors du lancement du serveur <br>
+            -root  /var/www/mon_test.local est le repertoire de fichier du serveur. <br>
 
-## 4-Configuration du serveur - sites disponible et liens symboliques
+## 3-Configuration du serveur - sites disponible et liens symboliques
             -root@jonathan:~# cd /var/www/mon_test.local
             -root@jonathan:~# nano index.html
 Comme toutes les pages html,on peut mettre des balises HTML commme ci-dessous:
+
 <img href="image/nginx-html.png"></img>
 
-## 5-Redemarrer le service Nginx
+## 4-Redemarrer le service Nginx
 
             -root@jonathan:~# /etc/init.d/apache2 restart
 ## 6-Récuperer l'adresse IP et le saisir sur un navigateur.
