@@ -10,10 +10,10 @@
 <img src="image/verifier.png" alt="">
 
 ## 2-Configuration du serveur
-  Commande:
-            -root@jonathan:~# nano /etc/nginx/conf.d/test.local.conf
+  Commande: <br>
+            -root@jonathan:~# nano /etc/nginx/conf.d/test.local.conf <br>
 Ajouter les configurations: 
-<img src="image/nginx-conf.png" alt="">
+<img src="image/nginx-conf.png" alt=""> <br>
 Dans ses configurations, <br>
             -listen 80 redirige le port d'ouverture sur le port 80 <br>
             -Ces fichiex index configure le support de fichier lors du lancement du serveur <br>
@@ -24,7 +24,7 @@ Dans ses configurations, <br>
             -root@jonathan:~# nano index.html
 Comme toutes les pages html,on peut mettre des balises HTML commme ci-dessous:
 
-<img href="image/nginx-html.png"></img>
+<img href="image/nginx-html.png" alt="">
 
 ## 4-Redemarrer le service Nginx
 
