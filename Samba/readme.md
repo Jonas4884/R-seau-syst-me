@@ -71,6 +71,7 @@ Configuration:
    #Ouvrir la section réseau
    #A la fin du chargement,entrer ceci sur la barre de navigation:
 		\\192.168.31.134 (Adresse IP du machine serveur)
+		
 <img src="image/samba-test1.png" alt="">
 ## 8. Creer  un compte samba
    commande: root@user:~# adduser jonathan <br>
