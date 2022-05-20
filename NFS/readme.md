@@ -55,7 +55,7 @@ Sortie attendue: Export list for 192.168.31.134 br
 
 ### 5-se diriger vers le repertoire de partage et tester l'accès du client
         root@debian:~# cd /mnt/test
-        root@debian:~# mkdir test.txt
+        root@debian:~# cat test.txt
 
 #### Vous avez  une serveur NFS fonctionelle.
 
