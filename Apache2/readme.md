@@ -45,12 +45,12 @@ ServerAdmin consiste à l'extension serveur.
 ## 4-Configuration du serveur - sites disponible et liens symboliques
             -root@debian:~# cd /var/www/html
             -root@debian:~# nano index.html
-Comme toutes les pages html,on peut mettre des balises comme <p>Hello world</p>
-
+###### recuperer l'adresse IP
+<img src="image/apache-IP.png">
 ## 5-Redemarrer le service Apache2
 
             -root@debian:~# /etc/init.d/apache2 restart
 ## 6-Récuperer l'adresse IP et le saisir sur un navigateur.
             -root@debian:~# ip addr
-
+<img src="image/apache-test.png" alt="">
 ### Vous avez une serveur Apache fonctionnelle
