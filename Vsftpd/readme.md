@@ -28,10 +28,10 @@ Inserer ou modifier les lignes concerenées :
 #### Côté client
 #####  Introduire l'adresse IP du serveur dans la machine cliente
 #####      -ouvrir le repertoire travail/partage via fileZilla ou similaire
-                Entrer l'adresse IP du serveur et puis <b>Connexion rapide</b>
+                Entrer l'adresse IP du serveur et puis Connexion rapide
 <img src="image/vsftpd.png" alt="">
 
-### Vous êtes sur le repertoire du partage de fichier via ftpS
+### Vous êtes sur le repertoire du partage de fichier via FTP
 
 
 <a href="https://github.com/Jonas4884/Reseau-et-systeme">Revenir au liste des serveurs</a>
