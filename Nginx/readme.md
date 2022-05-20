@@ -7,50 +7,30 @@
         -apt-get install nginx
   ### Pour verifier:
         -nginx -v
-
-## 2-Configuration du serveur - Donner un nom du serveur
+<img src="image/verifier.png" alt="">
+## 2-Configuration du serveur
   Commande:
-            -root@debian:~# nano /etc/nginx/conf.d
-Ajouter un nom de sevuer: 
-Se referer sur:
-###ServerRoot "/etc/apache2"
-ServerName www.test.fr
-
-## 3-Configuration du serveur - etablir la configuration du sécurité et les bases
-
-            -root@debian:~# vi conf-enabled/security.conf
-            :set nu
-Modifier l'initial par:
-...
-24 #ServerTOkens Minimal
-25 ServerTokens prod
-=>Enregistrer cette modification
-
-            -root@debian:~# nano /etc/apache2/sites-available/000-default.conf
-      Par défaut,la configuration est :
-
-##### <VirtualHost *:80>
-#####	ServerAdmin webmaster@localhost
-#####	DocumentRoot /var/www/html
-#####	ErrorLog ${APACHE_LOG_DIR}/error.log
-#####	CustomLog ${APACHE_LOG_DIR}/access.log combined
-##### </VirtualHost>
-
-ServerAdmin consiste à l'extension serveur.
-/var/www/html est le repertoire du serveur.
+            -root@jonathan:~# nano /etc/nginx/conf.d/test.local.conf
+Ajouter les configurations: 
+<img src="image/nginx-conf.png" alt="">
+Dans ses configurations,
+            -listen 80 redirige le port d'ouverture sur le port 80
+            -Ces fichiex index configure le support de fichier lors du lancement du serveur
+            -root  /var/www/mon_test.local est le repertoire de fichier du serveur.
 
 ## 4-Configuration du serveur - sites disponible et liens symboliques
-            -root@debian:~# cd /var/www/html
-            -root@debian:~# nano index.html
-Comme toutes les pages html,on peut mettre des balises comme <p>Hello world</p>
+            -root@jonathan:~# cd /var/www/mon_test.local
+            -root@jonathan:~# nano index.html
+Comme toutes les pages html,on peut mettre des balises HTML commme ci-dessous:
+<img href="image/nginx-html.png"></img>
 
-## 5-Redemarrer le service Apache2
+## 5-Redemarrer le service Nginx
 
-            -root@debian:~# /etc/init.d/apache2 restart
+            -root@jonathan:~# /etc/init.d/apache2 restart
 ## 6-Récuperer l'adresse IP et le saisir sur un navigateur.
-            -root@debian:~# ip addr
+            -root@jonathan:~# ip addr
 <a href="image/nginx-IP.png"></a>
-### Vous avez une serveur Apache fonctionnelle
+### Vous avez une serveur Nginx fonctionnelle
 <a href="image/nginx-test.png"></a>
 
 <br>

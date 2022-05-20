@@ -1,8 +1,8 @@
-#### Installation du serveur vsftpd
+# Installation du serveur vsftpd
+### A quoi sert Vsftpd
+#### Vsftpd est un serveur FTP libre. Il permet de transférer des fichiers par Internet ou par le biais d'un réseau informatique local (intranet).Toute personnes en ayant l'autorisation, peut télécharger et envoyer des fichiers. Il permet la création d'un espace anonyme.
 
-##### vsftpd est un serveur FTP libre. Il permet de transférer des fichiers par Internet ou par le biais d'un réseau informatique local (intranet).Toute personnes en ayant l'autorisation, peut télécharger et envoyer des fichiers. Il permet la création d'un espace anonyme.
-
-##### Pour cette serveur, il nous faut deux machines pour simuler la connexion Client-Serveur
+##### Pour cette serveur, il nous faut deux machines pour simuler la connexion Client-Serveur.
 
 #### Côté serveur
 ##### 1-Installation du packet vsftpd
