@@ -31,10 +31,12 @@ no_subtree_check : Cette option neutralise la vérification de sous-répertoires
 ##### Pour verifier l'installation,
         root@jonathan:~# showmount -e
 ### 5-Utilisation des firewalls pour la machine cliente
-        <img src="image/nfs-serveur.png" alt="">
+
+<img src="image/nfs-serveur.png" alt="">
 
 #### Pour verifier l'acces,il faut s'assurer que le fichier test.txt s'affiche sur la machine cliente(Apres la configuration du côté client)
-        <img src="image/nfs-success-serveur - Copie.png" alt="">
+        
+<img src="image/nfs-success-serveur - Copie.png" alt="">
 
 ##       Côté client
 ### 1-Installation du packet
@@ -47,8 +49,9 @@ Sortie attendue: Export list for 192.168.31.134 br
 ### 3-Créer le repertoire  de partage
         root@debian:~# mkdir -p /mnt/test
 ### 4-Monter le partage sur la machine cliente
-        root@debian: mount 192.168.31.134:mnt/partage/  /mnt/test
-        <img src="image/nfs-success.png" alt="">
+        root@debian: mount 192.168.31.134:mnt/partage/  /mnt/test <br>
+
+<img src="image/nfs-success.png" alt="">
 ### 5-se diriger vers le repertoire de partage et tester l'accès du client
         root@debian:~# cd /mnt/test
         root@debian:~# mkdir test.txt
