@@ -1,4 +1,8 @@
 # Créer une serveur Apache fonctionnelle.
+
+## Qu'est-ce que le serveur Apache
+Apache est un serveur Web HTTP open source développé et maintenu par une communauté d’utilisateurs autour de l’ Apache Software Foundation. Il permet de répondre aux demandes de contenu provenant de clients Web (navigateurs).
+
 # Pour toutes les configurations,il est exigé d'être en mode root:
             -Sur Debian: user@debian:~$ su
             -Sur Ubuntu: user@debian:~$ sudo su
@@ -46,8 +50,10 @@ ServerAdmin consiste à l'extension serveur.
             -root@debian:~# cd /var/www/html
             -root@debian:~# nano index.html <br>
 <img src="image/apache-html.png" alt="">
-###### Recupérer l'adresse IP
+
+#### Recupérer l'adresse IP
 <img src="image/apache-IP.png">
+
 ## 5-Redémarrer le service Apache2
 
             -root@debian:~# /etc/init.d/apache2 restart
